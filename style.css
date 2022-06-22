@@ -1,0 +1,42 @@
+body {
+    background-color: plum;
+}
+#app {
+    margin: 1% 30%;
+    background-color: aliceblue;
+    border-radius: 1em;
+    margin-top: 10em;
+    padding-bottom: 10em;
+}
+#todo-title {
+    text-align: center;
+    border: 1px;
+    border-radius: 10em;
+    background-color: darkcyan;
+}
+
+#todo-subtitle {
+    text-align: center;
+}
+
+#todo-input {
+    width: 80%;
+    margin: 1%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 3em;
+}
+
+#todo-submit {
+    width: 10%;
+    height: 3em;
+    border-radius: 1em;
+    background-color: white;
+}
+
+#todo-submit:hover {
+    cursor: pointer;
+    background-color: gray;
+
+}
+
